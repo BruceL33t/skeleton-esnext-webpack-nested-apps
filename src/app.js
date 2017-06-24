@@ -1,4 +1,4 @@
 export class App {
-  main1 = 'app1';
-  main2 = 'app2';
+  main1 = './one/app';
+  main2 = './two/app';
 }

@@ -1,4 +1,3 @@
-import { PLATFORM } from "aurelia-pal";
 import {
   Aurelia,
   noView,
@@ -20,6 +19,6 @@ export class ChildApp {
   }
 
   mainChanged() {
-    this.app.start().then(a => a.setRoot(PLATFORM.moduleName(this.main), this.host));
+    this.app.start().then(a => a.setRoot(this.main, this.host));
   }
 }
