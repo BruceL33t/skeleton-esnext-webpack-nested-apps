@@ -1,4 +1,6 @@
+import { PLATFORM } from 'aurelia-pal';
+
 export class App {
-  main1 = './one/app';
-  main2 = './two/app';
+  main1 = PLATFORM.moduleName('one/app');
+  main2 = PLATFORM.moduleName('two/app');
 }
