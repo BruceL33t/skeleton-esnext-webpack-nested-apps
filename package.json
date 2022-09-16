@@ -113,7 +113,7 @@
     "aurelia-templating-resources": "1.4.0",
     "aurelia-templating-router": "1.1.0",
     "bluebird": "3.5.0",
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.4.1",
     "font-awesome": "4.7.0",
     "isomorphic-fetch": "2.2.1",
     "jquery": "3.2.1"
